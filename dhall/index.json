@@ -20,7 +20,7 @@
     ],
     "assets": {
       "client" : [
-        {"file" : "dhall", "target": "/usr/local/bin", "chmod": "+x"}
+        {"file" : "*", "target": "/usr/local/bin/"}
       ]
     },
     "intro": {
