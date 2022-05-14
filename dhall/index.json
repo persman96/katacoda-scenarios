@@ -1,5 +1,5 @@
 {
-  "title": "New Scenario Template",
+  "title": "Dhall tutorial",
   "description": "A simple scenario example.",
   "difficulty": "Beginner",
   "time": "3 minutes",
@@ -19,8 +19,8 @@
       }
     ],
     "assets": {
-      "host01" : [
-        {"file" : "deploy.sh", "target": "/usr/local/bin", "chmod": "+x"}
+      "client" : [
+        {"file" : "dhall", "target": "/usr/local/bin", "chmod": "+x"}
       ]
     },
     "intro": {
