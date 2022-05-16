@@ -1,2 +1,0 @@
-cd /root/
-printf 'Hello?'

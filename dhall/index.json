@@ -19,8 +19,8 @@
       }
     ],
     "assets": {
-      "client" : [
-        {"file" : "*", "target": "/usr/local/bin/"}
+      "host01" : [
+        {"file" : "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     },
     "intro": {
