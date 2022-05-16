@@ -1,8 +1,22 @@
 # Heading for Step 2
 
-This is some text.
+Learn about what dhall can do.
 
-Here's a single line of runnable code:
+Lets create a file called example.dhall  where we will write our dhall code. 
 
-`printf 'Jello, world!\n\n'`{{execute}}
+
+Task
+
+Create file and save the following code:
+{ foo = True
+, bar = [1, 2, 3, 4, 5]
+, baz = "ABC"
+}
+
+Hint
+You can use 'nano' or 'vim' to edit the contents in the terminal.
+`nano`{{execute}}
+
+We can then use `dhall-to-json --file ./example.dhall`{{execute}} 
+
 

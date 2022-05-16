@@ -1,3 +1,3 @@
 #/bin/bash
 
-echo 'Welcome to this tutorial.\n\n'
+echo 'Welcome to this tutorial.\n'
