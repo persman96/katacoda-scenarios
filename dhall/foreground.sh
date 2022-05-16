@@ -1,3 +1,4 @@
 #/bin/bash
 
-printf 'Welcome to this tutorial.\n\n'
+echo 'Welcome to this tutorial.\n\n'
+print 'Welcome to this tutorial2.\n\n'

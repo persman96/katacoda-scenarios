@@ -20,7 +20,7 @@
     ],
     "assets": {
       "host01" : [
-        {"file" : "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        {"file" : "*", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     },
     "intro": {
