@@ -26,8 +26,13 @@
       }
       ,
       {
-        "title": "Integrate with Python",
+        "title": "Integrate with Python: Setup",
         "text": "step5.md"
+      }
+      ,
+      {
+        "title": "Integrate with Python: Integrate into a project",
+        "text": "step56.md"
       }
     ],
     "assets": {
