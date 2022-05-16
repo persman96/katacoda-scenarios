@@ -7,6 +7,18 @@ Dhall allows for the usage of functions. These are written as anonymous function
 The language also supports for nesting of functions.
 
 `\(inputName : inputType) -> \(inputName : inputType) -> output` 
+```
+let cars = ["Toyota", "Volvo"]
+let moreCars = ["Audi", "Volkswagen"]
+
+let cars = (\(x : List Text) -> \(y : List Text) -> [x # y]) cars moreCars
+
+in {cars} -- The output
+```
+
+Here we have a nested function called cars which takes two list of strings as argument and also outputs a list of strings. Where the operator `#` is list concatination.
+
+# Types
 
 Note that in dhall there exists types and lists needs to have the same type. For example,
 

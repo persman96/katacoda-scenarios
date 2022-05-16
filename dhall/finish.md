@@ -1,20 +1,13 @@
 
-On the finish page, summarize what was just learned:
+In this tutorial we have learnt some basic usage of Dhall as well as how to integrate it with Python.
 
-- 3-4 bullets
-- of what you just
-- did and learned
+- We learnt how to use variables and function for cleaner and more maintainable configuration files.
+- We learnt how to use it with the Python package.
+- We learny how to convert our Dhall code to both JSON and yaml. 
 
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
 
 ## Further Learning
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+This tutorial only briefly touched what is possible with Dhall. To learn more visit the official documentaion: https://docs.dhall-lang.org/index.html 
 
 

@@ -24,12 +24,18 @@
         "text": "step4.md",
         "answer": "answer4.md"
       }
+      ,
+      {
+        "title": "Step 5",
+        "text": "step5.md"
+      }
     ],
     "assets": {
       "host01" : [
         {"file" : "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file" : "dhall-json-1.7.10.tar.gz", "target": "/root/"},
-        {"file" : "answers/*.*", "target": "/root/"}
+        {"file" : "answers/*.*", "target": "/root/"},
+        {"file" : "examples/*.*", "target": "/root/"}
       ]
     },
     "intro": {

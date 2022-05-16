@@ -1,11 +1,9 @@
-# Heading for Step 2
-
-Learn about what dhall can do.
+# Create a Dhall file
 
 Lets create a file called example.dhall  where we will write our dhall code. 
 
 
-Task
+# Task
 
 Create file and save the following code:
 { foo = True
@@ -13,8 +11,7 @@ Create file and save the following code:
 , baz = "ABC"
 }
 
-Hint
-You can use 'nano' or 'vim' to edit the contents in the terminal.
+You can use `nano` or `vim` to edit the contents in the terminal.
 `nano`{{execute}}
 `vim`{{execute}}
 

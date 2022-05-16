@@ -1,8 +1,6 @@
-# New Scenario Template (Your Title Here)
+# A brief introduction to Dhall
 
-A brief introduction to Dhall.
-
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Dhall is a programmable configuration language. Which can be used either as the main configruation langugage or it can be converted to other common formats, such as, json, yaml, etc.
 
 ## Description
 
@@ -17,6 +15,8 @@ Importantly, why does this matter? What can this technology, tool, or approach h
 - will learn
 
 ## Prerequisite Skills
+
+Basic knowledge of python, command line and JSON.
 
 Define the target audience here, and list any prerequisite skills. For example:
 
