@@ -1,8 +1,8 @@
 {
   "title": "Dhall tutorial",
   "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
+  "difficulty": "Intermediate",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
@@ -16,6 +16,12 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      }
+      ,
+      {
+        "title": "Step 4",
+        "text": "step4.md",
+        "answer": "answer4.md"
       }
     ],
     "assets": {

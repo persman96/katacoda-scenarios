@@ -16,6 +16,7 @@ Create file and save the following code:
 Hint
 You can use 'nano' or 'vim' to edit the contents in the terminal.
 `nano`{{execute}}
+`vim`{{execute}}
 
 We can then use `dhall-to-json --file ./example.dhall`{{execute}} 
 

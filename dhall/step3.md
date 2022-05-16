@@ -1,19 +1,22 @@
-# Heading for step 3: Variables and functions
+# Heading for step 3: Variables
 
 In contrast to json you can use variables in dhall. Here is an example:
 
-let address = {street: "main street", state: Texas}
+let address = {street = "main street", state = "Texas"}
 
-let john = {age: 20, name: "John Doe", location = address}
+let john = {age = 20, name = "John Doe", address = address}
 
 in john
 
-Which we can convert to a json file with the following command: # INSERT SCRIPT HERE 
+Which we can convert to a json file with the following command: `dhall-to-json <<< let address = {street = "main street", state = "Texas"} 
+let john = {age = 20, name = "John Doe", address = address} 
+in john`{{execute}}
 
 Task:
 
 Dhall can thus be used to improve readability of your configuration files. For instance, say you have this json file:
 
+```json
 [
     {
         "school": {
@@ -43,8 +46,9 @@ Dhall can thus be used to improve readability of your configuration files. For i
         "name": "Johnny Doe"
     },
 ]
+```
 
-The file is quite repetitive. Use variables to make it less repetitive and then run it to make sure you get the same output as above. Rember if you named the file `example.dhall` then you can run `dhall-to-json --file ./example.dhall` to convert to json.
+The file is quite repetitive. Use variables to make it less repetitive and then run it to make sure you get the same output as above. Remember if you named the file `example.dhall` then you can run `dhall-to-json --file ./example.dhall` to convert to json.
 
 
 
