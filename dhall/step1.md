@@ -1,5 +1,3 @@
-# Setup
-
 Dhall can be used to directly translate to both JSON and YML using the command line. This can be a nice feature if you just want to quickly convert to a different configuration.
 
 For the purposes of this tutorial the dhall-to-json have already been configured. If you want to install on your own machine please go to this link: [Installation guide](https://docs.dhall-lang.org/tutorials/Getting-started_Generate-JSON-or-YAML.html#installation).

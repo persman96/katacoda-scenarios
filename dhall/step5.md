@@ -1,5 +1,3 @@
-# Integrate with Python
-
 Now lets try and integrate what we have learnt about dhall with Python. To install the package for dhall for Python we first need to download Rust since the Python implementation is built upon the one for Rust.
 
 To install Rust execute: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`{{execute}} and when promted chooce `1) Proceed with installation (default)`.

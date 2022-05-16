@@ -1,5 +1,3 @@
-# Create a Dhall file
-
 Lets create a file called example.dhall  where we will write our dhall code. 
 
 
@@ -13,8 +11,6 @@ Create file and save the following code:
 
 You can use `nano` to edit directly in the terminal.
 `nano example.dhall`{{execute}}
-
-# Output
 
 We can then use `dhall-to-json --file ./example.dhall`{{execute}} to convert our file to JSON.
 

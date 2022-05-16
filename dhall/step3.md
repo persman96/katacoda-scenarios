@@ -1,5 +1,3 @@
-# Variables
-
 In contrast to json you can use variables in Dhall. Here is an example:
 
 ```

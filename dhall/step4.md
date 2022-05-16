@@ -1,5 +1,3 @@
-# Functions and Types
-
 Dhall allows for the usage of functions. These are written as anonymous function and take this form:
 
 `\(inputName : inputType) -> output` 

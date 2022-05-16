@@ -6,27 +6,27 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Setup",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create a Dhall file",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Variables",
         "text": "step3.md",
         "answer": "answer3.md"
       }
       ,
       {
-        "title": "Step 4",
+        "title": "Functions and Types",
         "text": "step4.md",
         "answer": "answer4.md"
       }
       ,
       {
-        "title": "Step 5",
+        "title": "Integrate with Python",
         "text": "step5.md"
       }
     ],
