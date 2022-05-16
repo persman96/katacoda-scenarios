@@ -2,7 +2,7 @@
 
 Now lets try and integrate what we have learnt about dhall with Python. To install the package for dhall for Python we first need to download Rust since the Python implementation is built upon the one for Rust.
 
-To install Rust execute: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` and when promted choce 1) Proceed with installation (default).
+To install Rust execute: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`{{execute}} and when promted chooce `1) Proceed with installation (default)`.
 We can then run `source $HOME/.cargo/env`{{execute}} to set our PATH environment variable without having to restart out terminal.
 
 Then to install the package for Python run: `pip install dhall`{{execute}}
@@ -33,7 +33,12 @@ import dhall
 
 f = open('dhallToPython.dhall')
 file = dhall.load(f)
-print(dhall.dumps(file))
+jsonString = dhall.dumps(file)
+
+print(jsonString)
 ```
 
-We have now used our .dhall file to create a JSON string in Python, neat! In the future if we want to update our configuration 
+To execute the Python file we just created simply run: `python3 example.py`{{execute}}
+
+
+We have now used our .dhall file to create a JSON string in Python, neat!

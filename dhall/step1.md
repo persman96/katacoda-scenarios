@@ -6,5 +6,9 @@ For the purposes of this tutorial the dhall-to-json have already been configured
 
 You can run `dhall-to-json --help`{{execute}} to see a list of commands.
 
-In order to to converet a dhall file/statement to json from the command line simply run  `dhall-to-json <<< '{ foo = [1, 2, 3], bar = True }'`{{execute}}
+In order to to converet a dhall file/statement to json from the command line simply run  `dhall-to-json <<< '{ foo = [1, 2, 3], bar = True }'`{{execute}}.
+
+If we instead want to convert to yaml we can run `dhall-to-yaml <<< '{ foo = [1, 2, 3], bar = True }'`{{execute}}. 
+
+Note that in this tutorial we will just use `dhall-to-json` for simplicity but we could just as well use `dhall-to-yaml`.
 

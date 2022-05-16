@@ -13,10 +13,10 @@ let moreCars = ["Audi", "Volkswagen"]
 
 let cars = (\(x : List Text) -> \(y : List Text) -> [x # y]) cars moreCars
 
-in {cars} -- The output
+in {cars} 
 ```
 
-Here we have a nested function called cars which takes two list of strings as argument and also outputs a list of strings. Where the operator `#` is list concatination.
+Here we have a nested function called `cars` which takes two list of strings as argument and also outputs a list of strings. The operator `#` is list concatination.
 
 # Types
 
