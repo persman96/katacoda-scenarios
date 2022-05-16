@@ -4,10 +4,12 @@ Lets create a file called example.dhall  where we will write our dhall code.
 # Task: Create a file
 
 Create file and save the following code:
+```
 { foo = True
 , bar = [1, 2, 3, 4, 5]
 , baz = "ABC"
 }
+```
 
 You can use `nano` to edit directly in the terminal.
 `nano example.dhall`{{execute}}

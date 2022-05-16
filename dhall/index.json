@@ -38,9 +38,9 @@
     "assets": {
       "host01" : [
         {"file" : "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file" : "dhall-json-1.7.10.tar.gz", "target": "/root/"},
         {"file" : "answers/*.*", "target": "/root/"},
-        {"file" : "examples/*.*", "target": "/root/"}
+        {"file" : "examples/*.*", "target": "/root/"},
+        {"file" : "dhal.jpeg", "target": "/root/"}
       ]
     },
     "intro": {
