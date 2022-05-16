@@ -20,19 +20,20 @@
     ],
     "assets": {
       "host01" : [
-        {"file" : "*", "target": "/usr/local/bin/", "chmod": "+x"}
+        {"file" : "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file" : "dhall-json-1.7.10.tar.gz", "target": "/root/"}
       ]
     },
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh"
+      "code": "foreground.sh",
+      "courseData": "background.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "hideintro": true,
     "uilayout": "terminal"
   },
   "backend": {
