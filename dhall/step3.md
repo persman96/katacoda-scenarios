@@ -12,7 +12,7 @@ Here we create two variables, `address`, `john` and `tom`. In the variables `joh
 
 We can convert our example to a json file with the following command: `dhall-to-json --file ~/examples/example3.dhall`{{execute}}
 
-# Task
+# Task: Use variables 
 
 Dhall can thus be used to improve readability of configuration files. For instance, say we have this quite repetitive json file and want to simplify it:
 

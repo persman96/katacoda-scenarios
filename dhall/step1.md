@@ -7,6 +7,9 @@ We can get the Dhall file using wget: `wget -c https://github.com/dhall-lang/dha
 
 To unpack the file run `tar --extract --bzip2 --file dhall-json-1.7.10-x86_64-linux.tar.bz2`{{execute}}. Then finally copy the package to bin, `cp ./bin/dhall-to-{json,yaml} /usr/local/bin`{{execute}}
 
+
+# Task: Verify the setup
+
 We can then run `dhall-to-json --help`{{execute}} to see a list of commands and verify our installation.
 
 In order to to converet a dhall file/statement to json from the command line simply run  `dhall-to-json <<< '{ foo = [1, 2, 3], bar = True }'`{{execute}}.

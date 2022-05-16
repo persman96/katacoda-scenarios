@@ -1,7 +1,7 @@
 Lets create a file called example.dhall  where we will write our dhall code. 
 
 
-# Task
+# Task: Create a file
 
 Create file and save the following code:
 { foo = True

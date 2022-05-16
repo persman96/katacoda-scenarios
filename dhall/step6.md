@@ -1,6 +1,6 @@
 Lets say we want to convert our dhall file to a JSON object but don't want the hassle of using the terminal. We can write some Python code instead to use within our project.
 
-# Task
+# Task: Integrate with Python
 
 Create a .dhall file with `nano dhallToPython.dhall`{{execute}} and paste the following:
 ```
