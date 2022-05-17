@@ -41,7 +41,7 @@ Conditional statement -- if statement
 dhall-to-bash
 dhall-to-nix
 --->
-Dhall is programmable configuration langugage and can thought of as JSON + functions + types + imports. Dhall has the advantage over other configuration langauges in that it can build upon what has been learnt over the years. Dhall unlinke other common configuration langugages like JSON, YAM, XML offers programming features but unlike regular programming langauges like Python, C, Java offers constraints on what its features, effectively leading to less bugs in configurations files.
+Dhall is programmable configuration langugage and can thought of as JSON + functions + types + imports. Dhall has the advantage over other configuration langauges in that it can build upon what has been learnt over the years. Dhall unlinke other common configuration langugages like JSON, YAM, XML offers programming features but unlike regular programming langauges like Python, C, Java offers constraints on its features, effectively leading to less bugs in configurations files.
 
 
 ## Learning Objective
@@ -50,7 +50,7 @@ After the tutorial you will know how to:
 
 - Use Dhall to convert to JSON/Yaml
 - Write some basic expressions with Dhall
-- Simple integrate with Python
+- Simple integration with Python
 
 ## Prerequisite Skills
 

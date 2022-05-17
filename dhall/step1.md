@@ -3,9 +3,9 @@ Dhall can be used to directly translate to both JSON and YML using the command l
 For the purposes of this tutorial the dhall-to-json have already been configured. If you want to install on your own machine please go to this link: [Installation guide](https://docs.dhall-lang.org/tutorials/Getting-started_Generate-JSON-or-YAML.html#installation).
 --->
 
-We can get the Dhall file using wget: `wget -c https://github.com/dhall-lang/dhall-haskell/releases/download/1.41.1/dhall-json-1.7.10-x86_64-linux.tar.bz2`{{execute}}. At the point of writing this tutorial the latest version is 1.7.10, you can click this link to see the latest version if you are interested [Dhall releases](https://github.com/dhall-lang/dhall-haskell/releases). 
+We can download Dhall using the following steps: `wget -c https://github.com/dhall-lang/dhall-haskell/releases/download/1.41.1/dhall-json-1.7.10-x86_64-linux.tar.bz2`{{execute}}. At the point of writing this tutorial the latest version is 1.7.10, you can click this link to see the latest version if you are interested: [Dhall releases](https://github.com/dhall-lang/dhall-haskell/releases). 
 
-To unpack the file run `tar --extract --bzip2 --file dhall-json-1.7.10-x86_64-linux.tar.bz2`{{execute}}. Then finally copy the package to bin, `cp ./bin/dhall-to-{json,yaml} /usr/local/bin`{{execute}}
+To unpack the file run `tar --extract --bzip2 --file dhall-json-1.7.10-x86_64-linux.tar.bz2`{{execute}} Then finally copy the package to bin, `cp ./bin/dhall-to-{json,yaml} /usr/local/bin`{{execute}}
 
 
 # Task: Verify the setup

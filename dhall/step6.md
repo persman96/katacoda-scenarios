@@ -2,7 +2,7 @@ Lets say we want to convert our dhall file to a JSON object but don't want the h
 
 # Task: Integrate with Python
 
-Create a .dhall file with `nano dhallToPython.dhall`{{execute}} and paste the following:
+Create a .dhall file with `nano dhallToPython.dhall`{{execute}} and either create your own .dhall file or paste the following:
 ```
 let admins = ["John", "David"]
 
@@ -23,7 +23,7 @@ jsonString = dhall.dumps(file)
 
 print(jsonString)
 ```
-
+    
 To execute the Python file we just created simply run: `python3 example.py`{{execute}}
 
 We have now used our .dhall file to create a JSON string in Python, neat!
