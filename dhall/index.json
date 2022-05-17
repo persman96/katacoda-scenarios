@@ -40,7 +40,7 @@
         {"file" : "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file" : "answers/*.*", "target": "/root/"},
         {"file" : "examples/*.*", "target": "/root/"},
-        {"file" : "dhal.jpeg", "target": "/root/"}
+        {"file" : ".dhal.jpeg", "target": "/root/"}
       ]
     },
     "intro": {
