@@ -2,8 +2,7 @@
 
 /usr/local/bin/deploy.sh
 
-chmod +x ~/.easterEgg.sh
-source ~/.easterEgg.sh
+source /usr/local/bin/easterEgg.sh
 
 # For pictures
 
