@@ -1,6 +1,6 @@
 # A brief introduction to Dhall
 
-Dhall is a programmable configuration language. Which can be used either as the main configruation langugage or it can be converted to other common formats, such as, json, yaml, etc. This tutorial aims to teach you basic usage and an understanding of the advantages of using Dhall over other configuration langugages.
+Dhall is a programmable configuration language and can thought of as JSON + functions + types + imports. Which can be used either as the main configruation langugage or it can be converted to other common formats, such as, json, yaml, etc. This tutorial aims to teach you basic usage and an understanding of the advantages of using Dhall over other configuration langugages.
 
 ## Description
 <!--- 
@@ -41,7 +41,7 @@ Conditional statement -- if statement
 dhall-to-bash
 dhall-to-nix
 --->
-Dhall is programmable configuration langugage and can thought of as JSON + functions + types + imports. Dhall has the advantage over other configuration langauges in that it can build upon what has been learnt over the years. Dhall unlinke other common configuration langugages like JSON, YAM, XML offers programming features but unlike regular programming langauges like Python, C, Java offers constraints on its features, effectively leading to less bugs in configurations files.
+Dhall has the advantage over other configuration langauges in that it can build upon older configuration langauges. Dhall, unlinke other common configuration langugages like JSON, YAM, XML offers programming features but unlike regular programming langauges like Python, C, Java offers constraints on its features, effectively leading to less bugs in configurations files.
 
 
 ## Learning Objective
