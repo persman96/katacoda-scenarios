@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-
-
 #Easter egg
 function dhal() {
     echo 'In the mood for some dhal? Or did you perhaps mean Dhall?'
