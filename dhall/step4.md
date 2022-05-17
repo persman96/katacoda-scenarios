@@ -1,8 +1,8 @@
-Dhall allows for the usage of functions. These are written as anonymous function and take this form:
+Dhall allows for the usage of functions. These are written as anonymous function (lambda) and take this form:
 
 `\(inputName : inputType) -> output` 
 
-The language also supports for nesting of functions.
+The language also supports for nesting of functions (higher ordered functions).
 
 `\(inputName : inputType) -> \(inputName : inputType) -> output` 
 ```
