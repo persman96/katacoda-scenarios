@@ -8,9 +8,6 @@ source ~/.easterEgg.sh
 
 # https://ostechnix.com/how-to-display-images-in-the-terminal/
 
-# Using viu
-# cargo install viu
-# chmod +x viu
-
-
-echo "done"
+# Using viu for easter egg
+apt install cargo -y
+cargo install viu -y
