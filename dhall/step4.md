@@ -22,7 +22,7 @@ Note that in dhall there exists types and lists needs to have the same type. For
 
 `[1, True]` would fail since the types are Natural and Bool respectively. 
 
-# Task: Avoid non-repetitive expression with Dhall
+# Task: Rewrite to avoid repetition with Dhall
 
 
 Write a non-repetitive Dhall expression that generates the following JSON:

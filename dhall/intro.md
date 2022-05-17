@@ -1,6 +1,6 @@
 # A brief introduction to Dhall
 
-Dhall is a programmable configuration language. Which can be used either as the main configruation langugage or it can be converted to other common formats, such as, json, yaml, etc. This tutorial aims to teach you basic usage and an understanding to the advantages of using Dhall over other configuration langugages.
+Dhall is a programmable configuration language. Which can be used either as the main configruation langugage or it can be converted to other common formats, such as, json, yaml, etc. This tutorial aims to teach you basic usage and an understanding of the advantages of using Dhall over other configuration langugages.
 
 ## Description
 <!--- 
@@ -41,12 +41,12 @@ Conditional statement -- if statement
 dhall-to-bash
 dhall-to-nix
 --->
-Dhall is programmable configuration langugage and can thought of as JSON + functions + types + imports. Dhall has the advantage over other configuration langauges in that it can build upon what has been learnt over the years. Dhall unlinke other common configuration langugages like JSON, YAM, XML offers programming features but unlike regular programming langauges like Python, C, Java offers constraints on what is possible, effectively leading to less bugs in configurations files.
+Dhall is programmable configuration langugage and can thought of as JSON + functions + types + imports. Dhall has the advantage over other configuration langauges in that it can build upon what has been learnt over the years. Dhall unlinke other common configuration langugages like JSON, YAM, XML offers programming features but unlike regular programming langauges like Python, C, Java offers constraints on what its features, effectively leading to less bugs in configurations files.
 
 
 ## Learning Objective
 
-In this tutorial you will learn some basic usage of Dhall. After the tutorial you will know how to:
+After the tutorial you will know how to:
 
 - Use Dhall to convert to JSON/Yaml
 - Write some basic expressions with Dhall
@@ -54,5 +54,5 @@ In this tutorial you will learn some basic usage of Dhall. After the tutorial yo
 
 ## Prerequisite Skills
 
-This tutorial requires basic knowledge of Python, command line and JSON.
+This tutorial requires basic knowledge of Python, CLI and JSON.
 

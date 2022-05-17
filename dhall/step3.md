@@ -1,4 +1,4 @@
-In contrast to json you can use variables in Dhall. Here is an example:
+In contrast to JSON you can use variables in Dhall. Here is an example:
 
 ```
 let address = {street = "main street", state = "Texas"}
@@ -8,9 +8,9 @@ let tom = {age = 22, name = "Tom Doe", address = address}
 
 in [john, tom] -- The output
 ```
-Here we create two variables, `address`, `john` and `tom`. In the variables `john` and `tom` we use our other variable `address` so that we do not have to repeat that information twice.
+Here we create three variables, `address`, `john` and `tom`. In the variables `john` and `tom` we use our other variable `address` so that we do not have to repeat that information twice.
 
-We can convert our example to a json file with the following command: `dhall-to-json --file ~/examples/example3.dhall`{{execute}}
+We can convert our example to a JSON file with the following command: `dhall-to-json --file ~/examples/example3.dhall`{{execute}}
 
 # Task: Use variables 
 
